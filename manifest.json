@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Algorithm Complexity Analyzer",
+    "version": "1.0",
+    "description": "Analyze the time and space complexity of algorithms.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

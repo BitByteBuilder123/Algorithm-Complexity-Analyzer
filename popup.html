@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Algorithm Complexity Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px; /* Increased padding for a larger appearance */
+            width: 400px; /* Set width to a larger size */
+            height: 300px; /* Set height to a larger size */
+            box-sizing: border-box; /* Ensure padding and border are included in width/height */
+        }
+        textarea {
+            width: calc(100% - 20px); /* Adjust width to fit the body */
+            height: 150px; /* Increased height */
+            margin-bottom: 10px; /* Space below the textarea */
+            border: 2px solid #333; /* Dark border for visibility */
+            border-radius: 4px; /* Rounded corners */
+            padding: 10px; /* Internal padding */
+            box-sizing: border-box; /* Include padding in width/height */
+        }
+        button {
+            width: 100%; /* Full width button */
+            padding: 10px; /* Increased padding for a larger button */
+            font-size: 16px; /* Larger text for the button */
+            border: 2px solid #333; /* Dark border */
+            border-radius: 4px; /* Rounded corners */
+            background-color: #333; /* Dark background */
+            color: #fff; /* White text */
+            cursor: pointer; /* Pointer cursor */
+        }
+        button:hover {
+            background-color: #555; /* Lighter dark color on hover */
+        }
+        #info {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #000; /* Dark text color */
+            border-top: 2px solid #333; /* Top border to separate info section */
+            padding-top: 10px; /* Padding at the top */
+        }
+        h2, h3 {
+            margin-top: 0; /* Remove top margin for headings */
+        }
+        .bold {
+            font-weight: bold; /* Make text bold */
+        }
+    </style>
+</head>
+<body>
+    <h2>Enter Code:</h2>
+    <textarea id="codeInput"></textarea>
+    <br>
+    <button id="analyzeButton">Analyze Complexity</button>
+    <h3 id="result"></h3>
+
+    <!-- Author and institutional information -->
+    <div id="info">
+        <p class="bold">Created by -> Jai Yadav</p>
+        <p class="bold">Graphic Era University, Dehradun</p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
